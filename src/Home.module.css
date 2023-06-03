@@ -1,0 +1,11 @@
+.Home{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 85vh;
+}
+
+.heading{
+    font-size:4rem;
+    color:#2b547e;
+}

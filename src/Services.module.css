@@ -1,0 +1,31 @@
+@keyframes fade {
+    0%{ transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+.Services{
+    padding: 10rem;
+    height:50vh;
+    font-size: 4rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.functionalities{
+    display:flex;
+    flex-direction: column;
+    row-gap: 4rem;
+    
+}
+
+i{
+    margin-right: 3rem;
+}
+
+.design{
+    font-size: 35rem;
+    color:#01d8ff;
+   
+    animation: fade 2s infinite linear;
+}
