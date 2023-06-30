@@ -1,31 +1,46 @@
 @keyframes fade {
-    0%{ transform:rotate(0deg);}
-    100%{transform:rotate(360deg);}
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
-.Services{
+.Services {
     padding: 10rem;
-    height:50vh;
+    height: 50vh;
     font-size: 4rem;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.functionalities{
-    display:flex;
+.functionalities {
+    display: flex;
     flex-direction: column;
     row-gap: 4rem;
-    
+
 }
 
-i{
+i {
     margin-right: 3rem;
 }
 
-.design{
-    font-size: 35rem;
-    color:#01d8ff;
-   
+.design {
+    font-size: 15rem;
+    color: #01d8ff;
+
     animation: fade 2s infinite linear;
+    transform-origin: center;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .design {
+        font-size: 8rem;
+    }
+
 }
